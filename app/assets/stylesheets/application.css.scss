@@ -37,11 +37,9 @@ h1, h2, h3 {
 .navbar {
     border: none;
 }
-
 .navbar-brand {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    
 }
 
 .navbar-default .navbar-brand,
@@ -52,6 +50,18 @@ h1, h2, h3 {
         opacity: 0.75;
     }
 } 
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: white;
+}
+  
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+      background-color: #399E97;   
+    }
+}
+  
   
 // Homepage styles  
 .home-callout {
